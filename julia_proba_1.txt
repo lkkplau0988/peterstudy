@@ -15,3 +15,5 @@ using Random
  numLogs = sum([numMatch(p) >= numMatchesForLog for p in passwords])
  println("Number of login attempts logged: ", numLogs)
  println("Proportion of login attempts logged: ", numLogs/N)
+
+這種記錄作用不大，同Excel記錄在電腦差不多，但這也有好處，不會這麼容易遺失掉
